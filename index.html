@@ -5,14 +5,21 @@
 		<title></title>
 		<style>
 			*{
-				margin: 0 auto;
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background-image: url(img/li3.jpg);
 			}
 			.out-side{
 				width:400px;
-				height: 400px;
+				height: 700px;
 				margin: 0 auto;
 				margin-top:10% ;
 				margin-left: 40%;
+			}
+			.bottom{
+				margin-bottom: 0;
 			}
 			.left{
 				float:left;
@@ -115,23 +122,21 @@
 					transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
 				}
 			}
+			.mp{
+				display: block;
+				width: 100%;
+			}
 		</style>
 	</head>
-	
-	<body background="img/li3.jpg" >
-			<audio autoplay="autoplay" controls="auto"loop="loop" preload="auto"
-            	src="img/周杰伦 - 晴天.mp3">
-	</audio>
-
+	<body>
 		<div class="out-side">
 			<div class="box">
-				<div class="out-div out-front"><img src="img/1.jpg"></div>
+				<div class="out-div out-front"><img src="img/13.jpg"></div>
 				<div class="out-div out-back"><img src="img/2.jpg"></div>
 				<div class="out-div out-left"><img src="img/3.jpg"></div>
 				<div class="out-div out-right"><img src="img/4.jpg"></div>
 				<div class="out-div out-top"><img src="img/5.jpg"></div>
 				<div class="out-div out-down"><img src="img/6.jpg"></div>
-				
 				<div class="in-div in-front"><img src="img/9.jpg"></div>
 				<div class="in-div in-back"><img src="img/7.jpg"></div>
 				<div class="in-div in-left"><img src="img/12.jpg"></div>
@@ -140,6 +145,9 @@
 				<div class="in-div in-down"><img src="img/10.jpg"></div>
 			</div>
 		</div>
-		
-	</body
+		<div class="bottom">
+			<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            	src="img/周杰伦 - 晴天.mp3" class="mp"></audio>
+		</div>
+	</body>
 </html>
