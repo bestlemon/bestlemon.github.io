@@ -1,1 +1,1 @@
-console.log("喜欢你，是我拼命想告诉你的秘密")
+console.log("不能说的秘密")
